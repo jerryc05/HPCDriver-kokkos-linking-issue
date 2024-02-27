@@ -9,6 +9,8 @@ int main() {
   std::puts("Calling CUDA lammps:");
   std::puts(lammps_fn_cuda().c_str());
 
+  std::puts("--------------------");
+
   std::puts("Calling OpenMP lammps:");
   std::puts(lammps_fn_openmp().c_str());
 

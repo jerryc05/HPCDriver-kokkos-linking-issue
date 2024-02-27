@@ -31,7 +31,8 @@ Shows incorrect output for kokkos:
 ```
 $ ./driver
 Calling CUDA lammps:
-Computed by CUDA          LAMMPS + Computed by CUDA Kokkos
+CUDA   LAMMPS + CUDA   Kokkos
+--------------------
 Calling OpenMP lammps:
-Computed by Serial/OpenMP LAMMPS + Computed by CUDA Kokkos
+OpenMP LAMMPS + CUDA   Kokkos
 ```
